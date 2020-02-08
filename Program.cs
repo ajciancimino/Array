@@ -6,17 +6,14 @@ namespace Array
     {
         static void Main(string[] args)
         {
-            const int size = 25;
-            int[] countdown = new int[size];
-
-            // Iterate through the array using a For Loop
-            for (int i = 1; i <= size; i++)
+            //declare array
+            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 };
+    
+            //loop and print each value in array
+            foreach (int i in arr)
             {
-
-                Console.WriteLine("Element value ="+ " " +i);
-
+                Console.WriteLine("Element value =" + " " + i);
             }
-
             
         }
     }
